@@ -16,9 +16,8 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <engine name="cordova-ios" version=">=4.3.0"/>
     </engines>
 
-    <platform name="ios">
-        <framework src="Firebase/InAppMessagingDisplay" type="podspec" spec="~> 5.0"/>
-        <framework custom="true" src="src/ios/Firebase/FirebaseInAppMessaging.framework" />
+    <platform name="ios">        
+        <framework custom="true" src="src/Firebase/FirebaseInAppMessaging.framework" />
     </platform>
 
     <platform name="android">
